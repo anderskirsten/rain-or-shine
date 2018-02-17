@@ -15,14 +15,6 @@ export default ReactWeatherApiKey;
 
 To run the project, simply type 'npm start' in your terminal. Please note, 'yarn start' may also be used if preferred and installed. Within the search box at the top of the page, please enter the name of the city you'd like to view the weather for. Input is not case sensitive, though invalid entries, like numbers or special characters, will simply show a 'Bad Request' error within the console.
 
-<p align="center">
+![Home Page View](https://github.com/anderskirsten/rain-or-shine/blob/master/src/assets/rainOrShine_homepg.png)
 
-Home page view:
-
-[[https://github.com/anderskirsten/rain-or-shine/blob/master/src/assets/rainOrShine_homepg.png | alt=home page view]]
-
-Example of the results when a city is entered into the form:
-
-[[https://github.com/anderskirsten/rain-or-shine/blob/master/src/assets/rainOrShine_CityResultsExample.png | alt=city results example view]]
-
-</p>
+![City Results Example View](https://github.com/anderskirsten/rain-or-shine/blob/master/src/assets/rainOrShine_CityResultsExample.png)
