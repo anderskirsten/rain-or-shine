@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: #928c8c;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.city-form {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #c1d7d8;
+  text-align: center;
+  min-width: 400px;
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input {
+  width: 200px;
+  margin: 0 5px 0 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+button {
+  margin-left: 5px;
+  padding: 7px 10px;
+  background-color: #bab1b1;
+  border: none;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.current-weather {
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #c1d7d8;
+}
+
+.tr {
+  text-align: center;
+}
+
+.td {
+  text-align: center;
+}
+
+.forecast-container {
+  max-width: 1000px;
+  max-height: 400px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #c1d7d8;
+  text-align: center;
+}
+
+.flex-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.forecast-container th {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.single-day-item {
+  display: block;
+  position: relative;
+  max-width: 175px;
+  max-height: 300px;
+  align-content: center;
+  margin-right: 15px;
+}
